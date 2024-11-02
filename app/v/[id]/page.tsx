@@ -89,7 +89,7 @@ const jsonLd = {
         thumbnailUrl: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`,
         url: `https://ngentotanakkecil.pages.dev/v/${file.filecode}`,
-        embedUrl: `https://${upstream}/e/${file.filecode}`,
+        embedUrl: `https://doodstream.com/e/${file.filecode}`,
         uploadDate: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
@@ -144,7 +144,6 @@ const jsonLd = {
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
         <section>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         {/* Add JSON-LD to your page */}
         <script
           type="application/ld+json"
@@ -162,7 +161,7 @@ const jsonLd = {
         </section>
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
-                src={`https://${upstream}/e/${file.filecode}`}
+                src={`https://doodstream.com/e/${file.filecode}`}
                 scrolling="no"
                 title={file.title}
                 frameBorder={0}
@@ -181,6 +180,7 @@ const jsonLd = {
                 Related Video {file.title}
             </h2>
             <SearchCardList query={file.title.split(" ")[1]} />
-        </div>
+ <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
+       </div>
     );
 }
