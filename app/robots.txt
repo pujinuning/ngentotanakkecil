@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://ngentotanakkecil.pages.dev/sitemap.xml
